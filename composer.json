@@ -5,7 +5,9 @@
         "name": "phpmiura",
         "email": "phpmiura@gmail.com"
     }],
-    "require": {},
+    "require": {
+        "phing/phing": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "PHPMiura\\Auth\\": "src/"
