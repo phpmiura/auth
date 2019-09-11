@@ -1,8 +1,8 @@
 <?php
-namespace Samuelayo\Contactform\Models;
+namespace PHPMiura\Auth\Models;
 use Illuminate\Database\Eloquent\Model;
 
-class ContactForm extends Model
+class Auth extends Model
 {
     protected $guarded = [];
 

@@ -1,23 +1,23 @@
 <?php
 
-namespace Samuelayo\Contactform\Http\Controllers;
+namespace PHPMiura\Auth\Http\Controllers;
 
-use Samuelayo\Contactform\Models\ContactForm;
+use PHPMiura\Auth\Models\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 
 
-class ContactFormController extends Controller {
+class AuthController extends Controller {
 
     public function index()
     {
-       return view('contactform::contact');
+       return view('auth::auth');
     }
 
     public function sendMail(Request $request)
     {
-        ContactForm::create($request->all());
+        Auth::create($request->all());
         return redirect(route('contact'))->with(['message' => 'Thank you, your mail has been sent succesfully.']);
     }
 
