@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "PHPMiura\\Auth\\": "src/"
+            "PHPMiura\\Auth\\": "vendor/phpmiura/auth/src/"
         }
     }
 }
