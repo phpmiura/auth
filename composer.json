@@ -1,0 +1,14 @@
+{
+    "name": "phpmiura/auth",
+    "description": "PHPMiura Auth",
+    "authors": [{
+        "name": "phpmiura",
+        "email": "phpmiura@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PHPMiura\\Auth\\": "src/"
+        }
+    }
+}
