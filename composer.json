@@ -5,11 +5,10 @@
         "name": "phpmiura",
         "email": "phpmiura@gmail.com"
     }],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
-            "PHPMiura\\Auth\\": "vendor/phpmiura/auth/src/"
+            "PHPMiura\\Auth\\": "src/"
         }
     }
 }
