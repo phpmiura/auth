@@ -5,6 +5,7 @@
         "name": "phpmiura",
         "email": "phpmiura@gmail.com"
     }],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
