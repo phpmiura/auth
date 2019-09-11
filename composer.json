@@ -1,6 +1,8 @@
 {
     "name": "phpmiura/auth",
     "description": "PHPMiura Auth",
+    "minimum-stability": "dev",
+    "license": "proprietary",
     "authors": [{
         "name": "phpmiura",
         "email": "phpmiura@gmail.com"
